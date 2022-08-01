@@ -25,8 +25,6 @@ This Tutorial consists of the following lessons:
 
 /*###########################################################################*/
 /*! @page qutest_unity Basic Unity Example
-
-@tableofcontents
 @nav{qutest_tut,qutest_mock}
 
 <p>This example is based on the simple `example_1` that ships with the <a href="http://www.throwtheswitch.org/unity" target="_blank" class="extern"><b>Unity unit testing framework</b></a>. This simplest example of Unity has nothing to do with the QP frameworks. The purpose is to illustrate that QUTest&trade; can be used with generic C code and to compare QUTest&trade; with Unity.
@@ -354,8 +352,6 @@ To run the tests on the TivaC LaunchPad (TM4C123 board), you use the `make_tm4c1
 
 /*###########################################################################*/
 /*! @page qutest_mock Unity Mock Example
-
-@tableofcontents
 @nav{qutest_unity,qutest_qhsm}
 
 <p>This example is loosely based on <a href="https://www.electronvector.com/about" target="_blank" class="extern"><b>Matt Chernosky's</b></a> video blog post <a href="https://www.electronvector.com/blog/test-driving-with-mocks-instead-of-hardware" target="_blank" class="extern"><b>"Test-driving with mocks instead of hardware"</b></a>. In this video blog, Matt presents a technique called the <a href="https://en.wikipedia.org/wiki/Mock_object" target="_blank" class="extern"><b>mock object</b></a>, which in the traditional unit testing approach is needed to verify complex, multi-stage interactions between the CUT and the collaborator impersonated by the mock object.
@@ -869,8 +865,6 @@ The following test script performs the same tests as the `TestLedBar.c` Unity te
 
 /*###########################################################################*/
 /*! @page qutest_qhsm Hierarchical State Machine Example
-
-@tableofcontents
 @nav{qutest_mock,qutest_blinky}
 
 <p>This example shows how to apply QUTest for unit-testing [Hierarchical State Machines](https://www.state-machine.com/doc/concepts.php#HSM). This example illustrates two testing strategies for state machines:
@@ -1199,8 +1193,6 @@ The following listing shows the *test script* for the QHsm tests (file <span cla
 
 /*###########################################################################*/
 /*! @page qutest_blinky Blinky Example
-
-@tableofcontents
 @nav{qutest_qhsm,qutest_dpp}
 
 <p>This example shows how to unit-test a simple active object (AO) called "Blinky". This Blinky AO, which is driven by a [<b>QP time event</b>](https://www.state-machine.com/qpc/qf_8h.html#struct_q_time_evt), turns on and off an LED.
@@ -1244,8 +1236,6 @@ This will build the @ref qutest_fixture "test fixture" as a host executable and 
 
 /*###########################################################################*/
 /*! @page qutest_dpp DPP Example
-
-@tableofcontents
 @nav{qutest_blinky,qutest_rtc}
 
 <p>The DPP (Dining Philosophers Problem) example shows how to use QUTest in various stages of application development, including not only unit testing, but **integration testing** as well.

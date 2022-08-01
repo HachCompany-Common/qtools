@@ -1,6 +1,4 @@
 /*! @page qfsgen QFSGen ROM File-System Generator
-
-@tableofcontents
 @nav{qclean,history}
 
 <p><strong>QFSGen</strong> is a cross-platform, command-line utility that generates a ROM-based file system, which can be incorporated in a C source. Specifically, the QFSGen utility generates a C header file that contains multiple constant byte arrays representing your files and directories. This generated header file (named `fsdata.h` by default) can be subsequently included in a ROM-Based File System implementation.

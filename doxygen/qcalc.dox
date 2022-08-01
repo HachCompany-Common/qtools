@@ -1,6 +1,4 @@
 /*! @page qcalc QCalc Programmer's Calculator
-
-@tableofcontents
 @nav{qwin,qclean}
 
 <p><strong>QCalc</strong> is a powerful, cross-platform calculator specifically designed for embedded systems programmers. The calculator accepts *whole expressions* in the @ref qcalc_expr "C-syntax" and displays results simultaneously in decimal, hexadecimal, and binary without the need to explicitly convert the result to these bases.

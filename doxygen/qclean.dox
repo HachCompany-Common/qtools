@@ -1,6 +1,4 @@
 /*! @page qclean QClean Code Whitespace Cleanup
-
-@tableofcontents
 @nav{qcalc,qfsgen}
 
 <p>Many programmers pay little attention to the **whitespace** in their source code, such as spaces, tabs, new-lines, etc. The common thinking is that compilers (C, C++, etc.) ignore whitespace anyway, so why bother? But, as a *professional* software developer you should not ignore whitespace, because it can cause all sorts of problems, some of them illustrated in the figure below:

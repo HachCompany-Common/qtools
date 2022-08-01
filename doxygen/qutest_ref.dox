@@ -1,7 +1,5 @@
 F/*###########################################################################*/
 /*! @page qutest_fixture QUTest&trade; Fixture Reference
-
-@tableofcontents
 @nav{qutest_rtc,qutest_script}
 
 <p>A QUTest *test fixture* is a regular C or C++ program that contains the @c %main() function as well as a few @ref qs "QS" callback functions (to implement test commands as well as test startup and teardown). The main job of a *test fixture* is to exercise the CUT (Code Under Test).
@@ -69,8 +67,6 @@ Once the test-probe variable is defined and initialized, it can be tested with t
 
 /*###########################################################################*/
 /*! @page qutest_script QUTest&trade; Script Reference
-
-@tableofcontents
 @nav{qutest_fixture,qview}
 
 <p>A QUTest *test script* contains a group of related tests (a *test group*). The basic job of these tests is to send commands to the @ref qutest_fixture "test fixture" running in the Target and to compare the @ref qspy_text "QSPY textual output" produced by the Target with the <a href="https://www.state-machine.com/glossary#test_expectation" class="extern"><b>expectations</b></a> of the tests.

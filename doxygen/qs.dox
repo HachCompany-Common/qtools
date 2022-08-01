@@ -1,6 +1,4 @@
 /*! @page qs QS Target Component
-
-@tableofcontents
 @nav{qpspy_proto,qspy}
 
 <p>The target-resident component of the QP/Spy&trade; tracing system is called **QS**. The purpose of QS is to provide facilities for **instrumenting** the target code so it will produce an interesting real-time trace from code execution. In this sense it is similar to peppering the code with `printf` statements. However, the main difference between QS and `printf` is *where* the data **formatting** and **sending** is done. When you use `printf`s, the data formatting and sending occur in the time-critical paths through your embedded code. In contrast, the QS target-resident component inserts raw binary data into the QS ring buffer, so all the time-consuming formatting is removed from the Target system and is done *after* the fact in the Host. Additionally, in QS, data logging and sending to the Host are separated so that the target system can typically perform the transmission outside of the time-critical path, for example in the *idle processing* of the target CPU.

@@ -205,8 +205,6 @@ runs "qutest" (**installed with pip**) to execute the test scripts (`*.py`) in t
 
 /*###########################################################################*/
 /*! @page qutest_rtc Run-to-Completion Processing
-
-@tableofcontents
 @nav{qutest_dpp,qutest_fixture}
 
 <p>The central concept applied in QUTest is **Run-to-Completion (RTC)** processing, both in the *test fixture* (Target) and in the *test script* (Host). RTC processing means that the code progresses in discrete, uninterruptible steps and that new inputs (commands) are recognized only *after* the current RTC step completes.

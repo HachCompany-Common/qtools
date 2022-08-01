@@ -1,6 +1,4 @@
 /*! @page qspy QSPY Host Application
-
-@tableofcontents
 @nav{qs,qspy_text}
 
 @section qspy_about About QSPY
@@ -200,8 +198,6 @@ The following sub-sections explain the following QSPY features:
 /*###########################################################################*/
 /**
 @page qspy_text QSPY Screen Output
-
-@tableofcontents
 @nav{qspy,qspy_dict}
 
 <p>QSPY provides a simple, consolidated, human-readable textual output to the screen. The readability of this output depends strongly on the availability of the <em>symbolic information</em> about the various objects in the Target code, called @ref qspy_dict "dictionaries". If the "dictionaries" are not available, QSPY can output only the hexadecimal values of various object addresses and event signals. However, if QSPY has acquired the @ref qs_dict "dictionaries" from the Target, or has @ref qspy_dict "read them from a file", it can apply the symbolic information to output the provided identifiers for objects, signals, and states.
@@ -409,8 +405,6 @@ To better adapt QSPY to support @ref qutest "QUTest Unit Testing", the QSPY huma
 /*###########################################################################*/
 /**
 @page qspy_dict QSPY Dictionaries
-
-@tableofcontents
 @nav{qspy_text,qspy_udp}
 
 @section qspy_dict_about About QSPY Dictionaries
@@ -715,8 +709,6 @@ That last option requires that the Target implements the @ref qs_rx "QS receive 
 @page qspy_udp QSPY UDP Interface
 @nav{qspy_dict,qspy_seq}
 
-@tableofcontents
-
 <p>This section describes the structure of the UDP packets exchanged between the QSPY Back-End and the various front-ends, such as @ref qutest "QUTest" and @ref qview "QView"  (<span style="color:blue"><strong>blue arrows</strong></span> in the sequence diagram below).
 </p>
 
@@ -924,8 +916,6 @@ This packet has Record-ID==DETACH and has no Data Payload.
 /*###########################################################################*/
 /**
 @page qspy_seq QSPY Sequence Output
-
-@tableofcontents
 @nav{qspy_udp,qspy_matlab}
 
 <p>The QSPY host application can also present the tracing data as a **sequence diagram**. To generate a Sequence file, you need to invoke QSPY with  the `-g [obj-list]` @ref qspy_command "command-line option".
@@ -1133,8 +1123,6 @@ In addition to the elements described above, this sequence diagram illustrates *
 /*###########################################################################*/
 /**
 @page qspy_matlab QSPY MATLAB Support
-
-@tableofcontents
 @nav{qspy_seq,qutest}
 
 <p>The QSPY host application can also export trace data to <a href="http://www.mathworks.com/products/matlab/" target="_blank" class="extern">MATLAB</a>&reg;, which is a popular numerical computing environment and a high-level technical programming language. Created by The MathWorks, Inc., MATLAB allows easy manipulation and plotting of data represented as matrices.

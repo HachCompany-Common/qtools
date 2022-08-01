@@ -200,8 +200,6 @@ After the Target information is received, the QView&trade; status bar shows the 
 /*###########################################################################*/
 /**
 @page qview_ui QView User Interface
-
-@tableofcontents
 @nav{qutest_script,qview_cust}
 
 <p>The <span class="img file_py">qview.py</span> script provides a Graphical User Interface (GUI) consisting of the main menu, the text view, the status bar, and the customizable canvas view.
@@ -361,8 +359,6 @@ This menu allows you to access the online Q-SPY help in HTML, and also allows yo
 /*###########################################################################*/
 /**
 @page qview_cust Customizing &amp; Extending QView&trade;
-
-@tableofcontents
 @nav{qview_ui,qwin}
 
 QView&trade; has been specifically designed for extensibility, so that you can customize its behavior to your specific project. In fact, as mentioned in the section about @ref qview_run "running QView", the <span class="img file_py"><b>qview.py</b></span> script takes the `<cust-script>` @ref qview_command "command-line parameter", which is another Python script designed specifically to extend and customize the basic functionality. This section describes how to write this @ref qview_script "customization script", so that you can turn QView&trade; into a powerful remote **Human-Machine Interface** (HMI) for your embedded system.

@@ -91,8 +91,6 @@ The following sections explain the concepts and components of QP/Spy&trade;:
 */
 /****************************************************************************/
 /*! @page qpspy_proto QP/Spy&trade; Data Protocol
-
-@tableofcontents
 @nav{qpspy,qs}
 
 <p>One of the greatest strengths of the QP/Spy&trade; tracing system is the data transmission protocol. The QP/Spy protocol is very lightweight, but contains the mechanisms for checking both data **integrity** and **continuity**.
