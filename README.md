@@ -5,7 +5,6 @@ View QTools Revision History at:
 https://www.state-machine.com/qtools/history.html
 
 
----------------------------------------------------------------------------
 # Documentation
 The offline HTML documentation for **this** particular version of QTools
 is located in the folder html/. To view the offline documentation, open
@@ -15,7 +14,6 @@ The online HTML documention for the **latest** version of QTools is located
 at: https://www.state-machine.com/qtools/
 
 
----------------------------------------------------------------------------
 # About QTools
 QTools is a collection of various open source tools for working with the
 [QP Real-Time Embedded Frameworks (RTEFs)][QP] on desktop platforms, such
@@ -71,7 +69,6 @@ following 3rd-party tools:
 12. Python for Windows (version 3.10 32-bit)
 
 
----------------------------------------------------------------------------
 # Downloading and Installation
 The most recommended way of obtaining QTools is by downloading the
 [QP-bundle](https://www.state-machine.com/#Downloads), which includes QTools
@@ -88,7 +85,7 @@ as described below.
 
 Alternatively, you can download QTools **separately** as described below:
 
---------------------
+
 ## QTools on Windows
 On Windows, installation of QTools consists of unzipping the
 `qtools-windows_<ver>.zip` archive into a directory of your choice,
@@ -105,7 +102,6 @@ define the environment variable `QTOOLS` to point to the
 installation directory of QTools.
 
 
---------------------
 ## QTools on Linux/macOS
 On Linux/MacOS, installation of QTools consists of unzipping the
 `qtools-posix_<ver>.zip` archive into a directory of your choice,
@@ -126,7 +122,6 @@ define the environment variable `QTOOLS` to point to the
 installation directory of QTools.
 
 
----------------------------------------------------------------------------
 # Licensing
 The various Licenses for distributed components are located in the
 LICENSES/ sub-directory of this QTools distribution.
@@ -152,7 +147,6 @@ sub-directory. Specifically, the LMFlash utility is distributed according
 to Section 2a "Demonstration License".
 
 
----------------------------------------------------------------------------
 # Source Code
 In compliance with GPL, this distribution contains the source code for
 the utilities contributed by Quantum Leaps in the `<qtools>\source`
@@ -187,7 +181,12 @@ Has been taken from the GitHub at:
 - https://github.com/ThrowTheSwitch/Unity
 
 
----------------------------------------------------------------------------
+# How to Help this Project?
+If you like this project, please give it a star (in the upper-right corner of your browser window):
+
+![GitHub star](doxygen/images/github-star.jpg)
+
+
 # Contact information:
 - https://www.state-machine.com
 - info@state-machine.com
